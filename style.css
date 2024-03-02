@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+      font-family: Comic Sans MS, cursive;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    #particles {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+
+#background-container {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+
+#background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('Background/Trash_Gang.gif') center/cover no-repeat;
+        filter: brightness(30%);
+    }
+
+.container {
+        top: 40px;
+        position: relative;
+        z-index: 1;
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.534); 
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
+        color: #ffffff; 
+    }
+
+.link {
+        text-align: center;
+        background-color: #0e0e0e; 
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); 
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+.link:hover {
+        background-color: #3a3a3a; 
+        transform: scale(1.05);
+}
+
+.link a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+  }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.2s;
+    user-select: none;
+}
+  
+.social-icon img {
+    width: 40px; 
+    height: 40px; 
+    pointer-events: none;
+}
+  
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+#header {
+    text-align: center;
+    
+}
+
+#header img {
+    width: 150px;
+    height: 150px;
+    user-select: none;
+    pointer-events: none;
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
+    margin-top: 2px; 
+}
+
+#header p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.scroll-text-container {
+    overflow: hidden;
+}
+
+.custom-marquee {
+    font-size: 20px; 
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px; 
+}
+
+.discord-widget {
+    text-align: center;
+    position: relative;
+    top: 65px;
+}
