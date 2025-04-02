@@ -1,7 +1,7 @@
 const textParts = [
     "✞ SYG Một ✞ ",
     "✞ Stop Stalking ✞ ",
-    "✞ Still there? Faggot... ✞"
+    "✞ Still there? Lil Fella... ✞"
 ];
 
 let currentPartIndex = 0;
